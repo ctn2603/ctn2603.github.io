@@ -1,0 +1,127 @@
+/**********************************************************/
+/*                      Main Section                      */
+/**********************************************************/
+#intro-frame {
+    position: relative;
+    height: 480px;
+}
+
+/* Intro image */
+#home-intro-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.home-intro-msg-frame {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 4.5em;
+}
+
+#home-intro-msg-sm-frame {
+    top: 10%;
+}
+
+#home-intro-msg-lg-frame {
+    top: 25%;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 50px 0 0 50px;
+}
+
+/* Text inside intro image */
+.home-intro-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+#home-intro-msg-sm {
+    font: bold 2em 'Rubik', sans-serif;
+    color: black;
+    opacity: 0.7;
+}
+
+#home-intro-msg-lg {
+    font: bold 2.5em 'Rubik', sans-serif;
+    color: white;
+}
+
+/* Foreword and Customer favorites*/
+#foreword-frame {
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.highlight-title {
+    text-align: center;
+    font: bold 1.5em 'Rubik', sans-serif;
+    opacity: 0.7;
+}
+
+#foreword-title {
+    margin: 60px 0 20px 0;
+}
+
+#foreword-content {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    opacity: 0.7;
+    line-height: 1.5em;
+}
+
+#customer-favorites-frame {
+    width: 80%;
+    margin: 50px auto 20px;
+}
+
+#customer-favorites-title {
+    margin: 10px 0 30px;
+}
+
+.customer-favorites-row {
+    height: 230px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.dish-frame {
+    position: relative;
+    width: 25%;
+    height: 90%;
+    display: inline-block;
+    margin: 0px 25px 50px;
+    background-color: white;
+    box-shadow: 0 0 2px 3px #e3e3e3;
+    border-radius: 3px;
+}
+
+.dish {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 95%;
+}
+
+.dish img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    max-width: 100% - 10px;
+    max-height: 98%;
+    border-radius: 3px;
+}
