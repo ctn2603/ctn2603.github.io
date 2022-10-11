@@ -1,0 +1,138 @@
+/**********************************************************/
+/*                      Main Section                      */
+/**********************************************************/
+#intro-frame {
+	position: relative;
+	height: 480px;
+}
+
+/* Intro image */
+#menu-intro-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.9;
+}
+
+#menu-intro-msg-frame {
+	position: absolute;
+	top: 25%;
+	left: 53%;
+	transform: translate(-50%, -50%);
+	width: 55em;
+	height: 4em;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 50px;
+}
+
+/* Text inside intro image */
+#menu-intro-msg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	font: bold 2em "Rubik", sans-serif;
+	color: white;
+}
+
+/* Category title */
+.category-title-frame {
+	text-align: center;
+}
+
+.arrow-series {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.arrow {
+	width: 1em;
+	height: 1em;
+}
+
+.category-title {
+	display: inline-block;
+	text-align: center;
+	font: bold 1.4em "Rubik", sans-serif;
+	opacity: 0.7;
+	margin: 60px 0 10px 0;
+}
+
+/* Category information */
+.plates-frame {
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.plate-frame {
+	width: 40%;
+	height: 140px;
+	box-shadow: 0 0 2px 3px #e3e3e3;
+	border-radius: 3px;
+	margin: 20px 20px;
+}
+
+.plate-img-frame {
+	float: left;
+	width: 35%;
+	height: 100%;
+	margin-left: 3%;
+}
+
+.plate-img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+.plate-note-frame {
+	position: relative;
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+.plate-title {
+	text-align: center;
+	margin-top: 20px;
+	font: bold 1em "Rubik", sans-serif;
+}
+
+.plate-ingredient {
+	margin: 5px 5%;
+	font: 0.8em "Rubik", sans-serif;
+	text-align: justify;
+}
+
+.plate-price {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+.plate-cash,
+.plate-credit {
+	width: 50%;
+	height: 1em;
+	font: 0.8em "Rubik", sans-serif;
+	text-align: center;
+}
+
+.plate-cash {
+	float: left;
+}
+
+.plate-credit {
+	float: right;
+}
