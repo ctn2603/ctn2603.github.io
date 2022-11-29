@@ -33,13 +33,13 @@ var chart_config = {
 								},
 								children: [
 									{
-										image: "./../../../assets/img/familytree/allosaurus.jpg",
+										image: "./../../assets/img/familytree/allosaurus.jpg",
 										text: {
 											name: "Allosaurus",
 										},
 										children: [
 											{
-												image: "./../../../assets/img/familytree/deinonychus.png",
+												image: "./../../assets/img/familytree/deinonychus.png",
 												text: {
 													name: "Deinonychus",
 												},

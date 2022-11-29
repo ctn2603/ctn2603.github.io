@@ -35,6 +35,7 @@ speechSynthesis.addEventListener("voiceschanged", () => {
 
 		listenBtn.onclick = function () {
 			if (dinosaurNoteMap[dinosaurName].isListen) {
+				speechSynthesis.cancel();
 				let utter = new SpeechSynthesisUtterance(
 					dinosaurNoteMap[dinosaurName].note
 				);
@@ -42,7 +43,7 @@ speechSynthesis.addEventListener("voiceschanged", () => {
 				utter.voice = selectedVoice;
 				utter.lang = "en-US";
 				window.speechSynthesis.resume();
-				speechSynthesis.speak(utter);
+				window.speechSynthesis.speak(utter);
 				listenBtn.textContent = PAUSE;
 				stopBtn.style.display = "block";
 				utter.addEventListener("end", () => stopBtn.click());
