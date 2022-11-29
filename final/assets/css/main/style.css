@@ -4,19 +4,7 @@ body {
 	padding: 0;
 }
 
-/* #particles-js-section-1 {
-	position: absolute;
-} */
-
-/* Page Content */
-/* #page-content {
-	display: flex;
-	flex-direction: column;
-	background-color: #2d2d2d;
-} */
-
 .scroll-container {
-	/* scroll-snap-type: y mandatory; */
 	position: absolute;
 	width: 100%;
 	z-index: 100;
@@ -29,8 +17,6 @@ body {
 #section-5,
 #section-6 {
 	min-height: 100vh;
-	/* overflow: auto; */
-	/* scroll-snap-align: start; */
 }
 /**********************************************************/
 /*                         Section 1                      */
@@ -68,7 +54,7 @@ body {
 /* Nav bar section */
 #nav-bar {
 	position: absolute;
-	top: 165px;
+	top: 180px;
 	left: 50%;
 	transform: translateX(-50%);
 
@@ -292,7 +278,6 @@ body {
 	display: inline-block;
 	font: 1.3em "Rubik", sans-serif;
 	line-height: 1.5em;
-	/* text-align: justify; */
 }
 
 /* CSS */
@@ -333,6 +318,6 @@ body {
 		-6px 8px 10px rgba(81, 41, 10, 0.1), 0px 2px 2px rgba(81, 41, 10, 0.2);
 }
 
-#deinonychus-stop-btn {
+.stop-button {
 	display: none;
 }
