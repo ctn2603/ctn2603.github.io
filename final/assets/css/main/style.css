@@ -18,6 +18,7 @@ body {
 #section-6 {
 	min-height: 100vh;
 }
+
 /**********************************************************/
 /*                         Section 1                      */
 /**********************************************************/
@@ -57,7 +58,6 @@ body {
 	top: 180px;
 	left: 50%;
 	transform: translateX(-50%);
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -86,7 +86,6 @@ body {
 #intro-message {
 	display: block;
 	text-align: center;
-	/* margin-top: 5%; */
 	margin-top: 200px;
 	font: 1.5em "Rubik", sans-serif;
 	color: #cac393;
@@ -165,13 +164,6 @@ body {
 /**********************************************************/
 /*                         Section 2                      */
 /**********************************************************/
-/* Dinosaur info section */
-.dinosaur-info-section {
-	/* height: 100vh; */
-	/* background-color: red; */
-	/* background-color: red; */
-}
-
 .dinosaur-title-container {
 	padding-top: 50px;
 }
@@ -199,11 +191,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-
-
-	
 	justify-content: flex-start;
-	/* background-color: red; */
 }
 
 .dinosaur-detail-container {
@@ -232,7 +220,6 @@ body {
 
 .dinosaur-image-container {
 	display: flex;
-	
 	padding: 20px;
 }
 
@@ -248,7 +235,6 @@ body {
 	width: 100%;
 	max-width: 450px;
 	border-radius: 10px;
-	/* height: 600px; */
 	max-height: 315px;
 }
 
@@ -262,7 +248,7 @@ body {
 }
 
 .dinosaur-characteristic-label {
-	margin: 5px 5px 5px 20px;
+	margin: 5px 5px 5px 0;
 	display: inline-block;
 	font: 1.4em "Rubik", sans-serif;
 	font-weight: bold;
@@ -274,13 +260,12 @@ body {
 }
 
 .dinosaur-note {
-	margin: 8px 20px;
+	margin: 8px 20px 8px 0;
 	display: inline-block;
 	font: 1.3em "Rubik", sans-serif;
 	line-height: 1.5em;
 }
 
-/* CSS */
 .voice-button {
 	display: flex;
 	align-items: center;
@@ -290,7 +275,6 @@ body {
 	font: 1.2em "Rubik", sans-serif;
 	padding: 0.5em 1.1em 0.5em 1.1em;
 	color: white;
-	background: #ad5389;
 	background: linear-gradient(
 		0deg,
 		rgba(20, 167, 62, 1) 0%,
