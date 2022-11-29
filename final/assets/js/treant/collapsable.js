@@ -1,6 +1,6 @@
 var chart_config = {
 	chart: {
-		container: "#collapsable-example",
+		container: "#dinosaur-family-tree",
 		animateOnInit: true,
 		node: {
 			collapsable: true,
@@ -33,7 +33,7 @@ var chart_config = {
 								},
 								children: [
 									{
-										image: "/assets/img/familytree/allosaurus.jpg",
+										image: "../../../assets/img/familytree/allosaurus.jpg",
 										text: {
 											name: "Allosaurus",
 										},
