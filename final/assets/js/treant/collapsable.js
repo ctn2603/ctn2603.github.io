@@ -45,7 +45,7 @@ var chart_config = {
 												},
 												children: [
 													{
-														image: "./../assets/img/familytree/tyrannosaurus.jpg",
+														image: "./assets/img/familytree/tyrannosaurus.jpg",
 														text: {
 															name: "Tyrannosaurus",
 														},
@@ -58,7 +58,7 @@ var chart_config = {
 							},
 
 							{
-								image: "./../assets/img/familytree/coelophysis.jpg",
+								image: "./assets/img/familytree/coelophysis.jpg",
 								text: {
 									name: "Coelophysis",
 								},
