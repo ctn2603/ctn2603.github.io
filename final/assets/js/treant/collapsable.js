@@ -33,21 +33,19 @@ var chart_config = {
 								},
 								children: [
 									{
-										
-										// image: "../../../assets/img/familytree/allosaurus.jpg",
 										image: "./assets/img/familytree/allosaurus.jpg",
 										text: {
 											name: "Allosaurus",
 										},
 										children: [
 											{
-												image: "./../../assets/img/familytree/deinonychus.png",
+												image: "./assets/img/familytree/deinonychus.png",
 												text: {
 													name: "Deinonychus",
 												},
 												children: [
 													{
-														image: "./../../../assets/img/familytree/tyrannosaurus.jpg",
+														image: "./../assets/img/familytree/tyrannosaurus.jpg",
 														text: {
 															name: "Tyrannosaurus",
 														},
@@ -60,7 +58,7 @@ var chart_config = {
 							},
 
 							{
-								image: "./../../../assets/img/familytree/coelophysis.jpg",
+								image: "./../assets/img/familytree/coelophysis.jpg",
 								text: {
 									name: "Coelophysis",
 								},
@@ -71,13 +69,13 @@ var chart_config = {
 										},
 										children: [
 											{
-												image: "./../../../assets/img/familytree/ornitholestes.jpg",
+												image: "./assets/img/familytree/ornitholestes.jpg",
 												text: {
 													name: "Ornitholestes",
 												},
 												children: [
 													{
-														image: "./../../../assets/img/familytree/ornithomimus.jpg",
+														image: "./assets/img/familytree/ornithomimus.jpg",
 														text: {
 															name: "Ornithomimus",
 														},
@@ -98,19 +96,19 @@ var chart_config = {
 				},
 				children: [
 					{
-						image: "./../../../assets/img/familytree/plateosaurus.jpg",
+						image: "./assets/img/familytree/plateosaurus.jpg",
 						text: {
 							name: "Plateosaurus",
 						},
 						children: [
 							{
-								image: "./../../../assets/img/familytree/brachiosaurus.jpg",
+								image: "./assets/img/familytree/brachiosaurus.jpg",
 								text: {
 									name: "Brachiosaurus",
 								},
 								children: [
 									{
-										image: "./../../../assets/img/familytree/diplodocus.jpg",
+										image: "./assets/img/familytree/diplodocus.jpg",
 										text: {
 											name: "Diplodocus",
 										},
@@ -121,7 +119,7 @@ var chart_config = {
 												},
 												children: [
 													{
-														image: "./../../../assets/img/familytree/alomosaurus.jpg",
+														image: "./assets/img/familytree/alomosaurus.jpg",
 														text: {
 															name: "Alomosaurus",
 														},
@@ -143,7 +141,7 @@ var chart_config = {
 				},
 				children: [
 					{
-						image: "./../../../assets/img/familytree/scelidosarus.jpg",
+						image: "./assets/img/familytree/scelidosarus.jpg",
 						text: {
 							name: "Scelidosarus",
 						},
@@ -154,7 +152,7 @@ var chart_config = {
 								},
 								children: [
 									{
-										image: "./../../../assets/img/familytree/ankylosaurus.jpg",
+										image: "./assets/img/familytree/ankylosaurus.jpg",
 										text: {
 											name: "Ankylosaurus",
 										},
@@ -169,7 +167,7 @@ var chart_config = {
 						},
                         children: [
                             {
-                                image: "./../../../assets/img/familytree/stegosarus.jpg",
+                                image: "./assets/img/familytree/stegosarus.jpg",
                                 text: {
                                     name: "Stegosarus",
                                 },
@@ -182,19 +180,19 @@ var chart_config = {
 						},
                         children: [
                             {
-                                image: "./../../../assets/img/familytree/camptosaurus.jpg",
+                                image: "./assets/img/familytree/camptosaurus.jpg",
                                 text: {
                                     name: "Camptosaurus",
                                 },
                                 children: [
                                     {
-                                        image: "./../../../assets/img/familytree/iguanodon.jpg",
+                                        image: "./assets/img/familytree/iguanodon.jpg",
                                         text: {
                                             name: "Iguanodon",
                                         },
                                         children: [
                                             {
-                                                image: "./../../../assets/img/familytree/anatosaurus.jpg",
+                                                image: "./assets/img/familytree/anatosaurus.jpg",
                                                 text: {
                                                     name: "Anatosaurus",
                                                 },
@@ -202,13 +200,13 @@ var chart_config = {
                                         ],
                                     },
                                     {
-                                        image: "./../../../assets/img/familytree/protoceratops.jpg",
+                                        image: "./assets/img/familytree/protoceratops.jpg",
                                         text: {
                                             name: "Protoceratops",
                                         },
                                         children: [
                                             {
-                                                image: "./../../../assets/img/familytree/triceratops.jpg",
+                                                image: "./assets/img/familytree/triceratops.jpg",
                                                 text: {
                                                     name: "Triceratops",
                                                 },
