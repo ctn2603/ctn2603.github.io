@@ -33,7 +33,9 @@ var chart_config = {
 								},
 								children: [
 									{
-										image: "../../../assets/img/familytree/allosaurus.jpg",
+										
+										// image: "../../../assets/img/familytree/allosaurus.jpg",
+										image: "./assets/img/familytree/allosaurus.jpg",
 										text: {
 											name: "Allosaurus",
 										},
